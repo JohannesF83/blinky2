@@ -27,8 +27,9 @@ int main (void)
 	// infit loop
 	while(1)
 	{
+		// LED an
 		GPIOD->ODR = 0xF000;
-		
+		// LED aus
 		GPIOD->ODR = 0x0000;
 	
 	}
