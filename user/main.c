@@ -31,6 +31,8 @@ int main (void)
 		GPIOD->ODR = 0xF000;
 		// LED aus
 		GPIOD->ODR = 0x0000;
+		
+		// weitere Kommentare
 	
 	}
 }
